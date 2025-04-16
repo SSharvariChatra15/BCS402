@@ -1,0 +1,26 @@
+	AREA BCS402,CODE,READONLY
+START
+	MOV R0,#1 
+	MOV R1,#1 
+	MOV R2,#1 
+	MOV R3,#1 
+	MOV R4,#1 
+	
+	MOV R5,#1 
+	MUL R6,R0,R0 
+	ADD R5,R5,R6 
+	
+	MUL R6,R1,R1 
+	ADD R5,R5,R6 
+	
+	MUL R6,R2,R2 
+	ADD R5,R5,R6 
+	
+	MUL R6,R3,R3 
+	ADD R5,R5,R6 
+	
+	MUL R6,R4,R4 
+	ADD R5,R5,R6 
+	             
+HERE B HERE
+    END
